@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
+            android:name=".activity.ResultActivity"
+            android:exported="true" />
+        <activity
             android:name=".activity.QuizQuestionsActivity"
             android:exported="true"
             android:screenOrientation="fullSensor" />
